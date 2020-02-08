@@ -18,5 +18,9 @@
 
     <actions>
         <!-- Add your actions here -->
+        <group id="AutomateK.AutomateK" text="AutomateK" description="AutomateK menu">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="MyFirstAction" class="MyFirstAction" text="My First Action" description="Some description."/>
+        </group>
     </actions>
 </idea-plugin>
